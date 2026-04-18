@@ -1,22 +1,16 @@
 # skymarshallsix/skills
 
-Custom Claude Skill Marketplace — Rifter Economic Organism
+Persönlicher Claude Skill Tracker — bleibt auf dem neuesten Stand des Claude-Ökosystems.
 
 ## Verfügbare Skills
 
-| Skill | Kategorie | Status |
-|-------|-----------|--------|
-| `rifter-monitor` | Automation | Stub |
-| `rifter-brain-eval` | Finance/Trading | Stub |
-| `rifter-session` | Automation | Stub |
-| `rifter-deploy` | Automation | Stub |
+| Skill | Zweck | Status |
+|-------|-------|--------|
+| `claude-ecosystem-scan` | Vollständiger Scan: neue Skills, MCP-Server, Tools, Extensions | Stub |
+| `claude-skill-audit` | Zeigt was aktuell installiert ist vs. was neu verfügbar ist | Stub |
 
 ## Installation
 
 ```
-claude plugin install rifter-monitor@skymarshallsix-skills
+claude plugin install claude-ecosystem-scan@skymarshallsix-skills
 ```
-
-## Marketplace-Eintrag
-
-Konfiguriert in `~/.claude/settings.json` unter `extraKnownMarketplaces.skymarshallsix-skills`.
