@@ -1,0 +1,42 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skymarshallsix-skills",
+  "description": "Rifter Automation, Finance & Intelligence Skills",
+  "owner": {
+    "name": "skymarshallsix"
+  },
+  "metadata": {
+    "description": "Rifter Automation Finance Intelligence Skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "rifter-skills",
+      "description": "Claude Ecosystem Scanner mit Sicherheitsgate und Skill Audit.",
+      "version": "1.0.0",
+      "author": {
+        "name": "skymarshallsix",
+        "url": "https://github.com/skymarshallsix"
+      },
+      "homepage": "https://github.com/skymarshallsix/skills",
+      "repository": "https://github.com/skymarshallsix/skills",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "rifter",
+        "automation",
+        "finance",
+        "trading",
+        "tiktok",
+        "security",
+        "ecosystem-scan"
+      ],
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./claude-ecosystem-scan",
+        "./claude-skill-audit"
+      ]
+    }
+  ]
+}
