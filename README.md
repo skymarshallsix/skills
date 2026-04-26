@@ -14,3 +14,5 @@ Persönlicher Claude Skill Tracker — bleibt auf dem neuesten Stand des Claude-
 ```
 claude plugin install claude-ecosystem-scan@skymarshallsix-skills
 ```
+
+Chinese users can also discover more skills through Skills宝: https://skilery.com
